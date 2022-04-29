@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="360px"
+            android:layout_height="360px">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher_round"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="360px"
+            android:layout_height="360px">
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="match_parent"
+                android:text="Hello World!"
+                android:textAlignment="center"
+                android:layout_marginTop="130px"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="360px"
+                android:layout_height="360px">
+
+                <LinearLayout
+                    android:layout_width="360px"
+                    android:layout_height="360px">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="250px"
+            android:layout_height="200px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="60px"
+            android:text="button"
+            android:textColor="@color/black"></Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        >
+
+        <Button
+            android:layout_width="400px"
+            android:layout_height="200px"
+            android:text="Здарова мир"
+            android:layout_marginLeft="100px"
+
+            ></Button>
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="150px"
+            android:layout_marginRight="200px"
+            android:text="text"
+
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px">
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:text="Много текста"></TextView>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="200px"></Button>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher_round"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730px"></LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
